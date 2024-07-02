@@ -135,13 +135,13 @@ employees4 = [
 
 print(
     allocate_resources(projects1, employees1)
-)  # Expected Output: {1: [3], 2: [3]} // actuall Output: {1: [1], 2: [2, 3]}
+)  # Expected Output: {1: [3], 2: [3]} // actual Output: {1: [1], 2: [2, 3]}
 print(
     allocate_resources(projects2, employees2)
-)  # Expected Output: {1: [2], 2: [3]} // atuall Output: {1: [1], 2: [2]}
+)  # Expected Output: {1: [2], 2: [3]} // actual Output: {1: [1], 2: [2]}
 print(
     allocate_resources(projects3, employees3)
-)  # Expected Output: {1: [1], 2: [2], 3: [3]} // atuall Output: {2: [2], 3: [3], 1: [1]}
+)  # Expected Output: {1: [1], 2: [2], 3: [3]} // actual Output: {2: [2], 3: [3], 1: [1]}
 print(
     allocate_resources(projects4, employees4)
-)  # Expected Output: {1: [1, 5], 2: [2, 5], 3: [3, 5], 4: [4, 5]} // atuall Output: {2: [2], 3: [3], 4: [4], 1: [1, 5]}
+)  # Expected Output: {1: [1, 5], 2: [2, 5], 3: [3, 5], 4: [4, 5]} // actual Output: {2: [2], 3: [3], 4: [4], 1: [1, 5]}

@@ -43,13 +43,13 @@ line_capacities4 = [20, 20, 20, 20]
 
 print(
     min_cost_distribution(components1, line_capacities1)
-)  # Expected Output: 0  // actuall Output: 0
+)  # Expected Output: 0  // actual Output: 0
 print(
     min_cost_distribution(components2, line_capacities2)
-)  # Expected Output: 5  // actuall Output: inf
+)  # Expected Output: 5  // actual Output: inf
 print(
     min_cost_distribution(components3, line_capacities3)
-)  # Expected Output: 10 // actuall Output: 37
+)  # Expected Output: 10 // actual Output: 37
 print(
     min_cost_distribution(components4, line_capacities4)
-)  # Expected Output: 18 // actuall Output: inf
+)  # Expected Output: 18 // actual Output: inf

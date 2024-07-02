@@ -154,13 +154,13 @@ knapsack_capacity4 = 2
 
 print(
     optimize_route(cities1, products1, knapsack_capacity1)
-)  # Expected Output: {'route': [0, 1, 2, 3, 0], 'quantities': {0: 2, 1: 1}, 'profit': 32} // actuall Output: {'route': [0, 1, 3, 2, 0], 'quantities': {0: 0}, 'profit': 0}
+)  # Expected Output: {'route': [0, 1, 2, 3, 0], 'quantities': {0: 2, 1: 1}, 'profit': 32} // actual Output: {'route': [0, 1, 3, 2, 0], 'quantities': {0: 0}, 'profit': 0}
 print(
     optimize_route(cities2, products2, knapsack_capacity2)
-)  # Expected Output: {'route': [0, 1, 0], 'quantities': {0: 5}, 'profit': 98} // actuall Output: {'route': [0, 1, 0], 'quantities': {0: 5}, 'profit': 90}
+)  # Expected Output: {'route': [0, 1, 0], 'quantities': {0: 5}, 'profit': 98} // actual Output: {'route': [0, 1, 0], 'quantities': {0: 5}, 'profit': 90}
 print(
     optimize_route(cities3, products3, knapsack_capacity3)
-)  # Expected Output: {'route': [0, 1, 2, 0], 'quantities': {0: 0}, 'profit': -3} // actuall Output: {'route': [0, 1, 2, 0], 'quantities': {0: 0}, 'profit': 0}
+)  # Expected Output: {'route': [0, 1, 2, 0], 'quantities': {0: 0}, 'profit': -3} // actual Output: {'route': [0, 1, 2, 0], 'quantities': {0: 0}, 'profit': 0}
 print(
     optimize_route(cities4, products4, knapsack_capacity4)
-)  # Expected Output: {'route': [0, 2, 1, 0], 'quantities': {0: 1, 1: 1}, 'profit': 107} // actuall Output: {'route': [0, 1, 2, 0], 'quantities': {0: 1}, 'profit': 57}
+)  # Expected Output: {'route': [0, 2, 1, 0], 'quantities': {0: 1, 1: 1}, 'profit': 107} // actual Output: {'route': [0, 1, 2, 0], 'quantities': {0: 1}, 'profit': 57}
